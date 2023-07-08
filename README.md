@@ -32,7 +32,7 @@
 - 터미널에서 작성법:
 
 ```
-git commit -m "[프로그래머스] 달리기경주 / Level1 / 30분" -m "https://school.programmers.co.kr/learn/courses/30/lessons/178871"
+git commit -m "[프로그래머스] 달리기경주 / Level1 / 30분 / https://school.programmers.co.kr/learn/courses/30/lessons/178871" 
 ```
 
 <br />
