@@ -18,13 +18,6 @@ function solution(keymap, targets) {
         console.log(`keymap[k].indexOf(word): ${keymap[k].indexOf(word)}, cnt: ${cnt}`);
       }
 
-      
-      /*
-      if(cnt.length != 0) {
-        answer[i] += Math.min(...cnt);
-        console.log(`answer: ${answer}`)
-        cnt = [];
-      }*/
       cnt = cnt.filter(el => el != -1);
       if(cnt.length == 0) {
         answer[i] = -1
